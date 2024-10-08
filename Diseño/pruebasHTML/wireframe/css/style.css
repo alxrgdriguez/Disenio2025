@@ -63,7 +63,32 @@ header nav a:hover {
 
 /*Main*/
 
+.seccion1 {
+
+    background-color: gainsboro;
+    padding: 30px;
+    margin-bottom: 30px;
+
+}
+
+.cont-seccion1 {
+
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-seccion1 p {
+    max-width: 40%;
+    margin-bottom: 40px;
+}
 
 
 
 /*Footer*/
+
+footer {
+    background-color: gainsboro;
+}

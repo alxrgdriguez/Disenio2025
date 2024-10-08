@@ -36,16 +36,7 @@ header nav a {
 
 header nav a:hover {
     text-decoration: none;
-    border: 1px solid rgb(61, 58, 58);
-    border-radius: 3px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    color: black;
     margin: 0 10px;
-    font-size: 16px;
-    transition: 0.5s;
 
 }
 
@@ -57,12 +48,12 @@ header nav a:hover {
     padding-top: 6px;
     padding-bottom: 6px;
     border: 1px solid black;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .enlace_cuadrado:hover {
     background-color: black;
     color: white;
     font-weight: bold;
-    transition: 0.4s;
+    transition: 0.3s;
 }

@@ -45,10 +45,10 @@
                 <option value="1000_mbits">1000 Mbits</option>
             </select> <br>
 
-            <input type="radio" value="Python"> Python
-            <input type="radio"" value=" HTML"> HTML
-            <input type="radio"" value=" Visual Basic"> Visual Basic
-            <input type="radio"" value=" Java"> Java<br>
+            <input type="radio" name="lenguaje" value="Python"> Python
+            <input type="radio" name="lenguaje" value=" HTML"> HTML
+            <input type="radio" name="lenguaje" value=" Visual Basic"> Visual Basic
+            <input type="radio" name="lenguaje" value=" Java"> Java<br>
 
             <label for="archivo">Elige un fichero:</label>
             <input type="file" id="archivo"> <br>
@@ -59,9 +59,9 @@
 
             <legend>Rellene las opciones siguientes</legend>
 
-            <input type="radio" value="Tarjeta aceleradora"> Tarjeta aceleradora<br>
-            <input type="radio"" value=" Monitor LED<"> Monitor LED<br>
-            <input type="radio"" value=" SSD"> SSD<br><br>
+            <input type="radio" name="hardware" value="Tarjeta aceleradora"> Tarjeta aceleradora<br>
+            <input type="radio" name="hardware" value="Monitor LED"> Monitor LED<br>
+            <input type="radio" name="hardware" value="SSD"> SSD<br><br>
 
             <label for="dni">DNI</label>
             <input type="text" id="dni" name="dni">
@@ -99,6 +99,8 @@
             </select> <br>
 
         </fieldset>
+
+        <button type="button">Enviar Formulario</button>
     </form>
 
 </body>

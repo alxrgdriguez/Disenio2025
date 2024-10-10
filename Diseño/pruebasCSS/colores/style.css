@@ -35,4 +35,5 @@ body {
 body {
     background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: 100px 100px;
+    background-attachment: fixed;
 }

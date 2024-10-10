@@ -1,0 +1,38 @@
+/*Por defecto, la imagen de fondo se repetirá tanto en el eje X (horizontal) como en el eje Y (vertical).*/
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+/*La imagen se repetirá horizontalmente, pero no se repetirá verticalmente. Esto puede crear un efecto de línea horizontal.*/
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat-x
+}
+
+/*La imagen se repetirá verticalmente, pero no horizontalmente. Esto genera un efecto de columnas verticales.*/
+
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat-y;
+}
+
+/*La imagen solo aparecerá una vez en el área del fondo. Si la imagen es más pequeña que el área del fondo, el resto del fondo mostrará el color de fondo (por defecto, blanco).*/
+
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+}
+
+/*La imagen se repetirá tanto en horizontal como en vertical, cubriendo todo el área del fondo.*/
+
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: repeat;
+}
+
+/*Esto especifica que la imagen se repetirá cada 100 píxeles en ambas direcciones. Es útil para crear patrones personalizados.*/
+
+body {
+    background-image: url("https://images.pexels.com/photos/941572/pexels-photo-941572.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: 100px 100px;
+}

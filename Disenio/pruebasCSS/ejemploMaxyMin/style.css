@@ -1,0 +1,19 @@
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+p {
+    margin-top: 50px;
+    border-radius: 10px;
+    text-align: justify;
+    background-color: burlywood;
+    padding: 40px;
+}

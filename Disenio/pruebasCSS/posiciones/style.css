@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    width: 85%;
+    position: relative;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 3px solid black;
+}
+
+.rojo {
+    width: 100px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    background-color: red;
+}
+
+.amarillo {
+    width: 100px;
+    font-weight: bold;
+    position: fixed;
+    height: 100px;
+    background-color: yellow;
+    right: 10px;
+    bottom: 10px;
+}
+
+.verde {
+    width: 100px;
+    left: 20px;
+    top: 10px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    background-color: green;
+}
+
+.azul {
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    position: static;
+    color: white;
+    font-weight: bold;
+    height: 100px;
+    background-color: blue;
+}

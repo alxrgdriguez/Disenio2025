@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 28px;
+
+}
+
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+.articulo {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.autor {
+    float: right;
+    margin-top: 20px;
+}
+
+.autor p {
+    font-size: 12px;
+}
+
+.tres-columnas {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.tres-columnas div {
+    text-align: justify;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.tres-columnas h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}

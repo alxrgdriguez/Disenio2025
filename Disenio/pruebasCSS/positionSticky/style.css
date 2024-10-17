@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sticky-container {
+
+
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(16, 150, 173);
+}
+
+.sticky-box {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    top: 0;
+    left: 0;
+
+}
+
+.content {
+    background-color: black;
+}
+
+.content div {
+
+    color: white;
+    text-align: center;
+    padding: 18px;
+    border-radius: 5px;
+
+
+}
+
+.box1 {
+    background-color: rgb(230, 86, 76);
+    float: left;
+    width: calc(50% - 10px);
+
+}
+
+.box2 {
+    background-color: pink;
+    position: relative;
+    float: right;
+    z-index: 1;
+    width: calc(50% - 10px);
+
+}
+
+.box3 {
+    width: 100%;
+    clear: both;
+    background-color: orange;
+}
+
+.box4 {
+    top: 50px;
+    left: 30px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(224, 187, 137);
+}
+
+.box5 {
+    width: calc(50% - 10px);
+    float: left;
+    background-color: green;
+}
+
+.box6 {
+    width: calc(50% - 10px);
+    float: right;
+    background-color: green;
+}
+
+.box7 {
+    clear: both;
+    width: 100%;
+    background-color: rgb(132, 65, 240);
+}
+
+.box8 {
+    clear: both;
+    width: 100%;
+    background-color: rgb(235, 112, 179);
+}
+
+.box9 {
+    float: left;
+    width: calc(50% - 10px);
+    background-color: blue;
+}
+
+.box10 {
+    float: right;
+    width: calc(50% - 10px);
+    background-color: blue;
+}
+
+p {
+    margin-top: 100px;
+    text-align: justify;
+}

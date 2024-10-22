@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.contendorCabecera {
+    max-width: 85%;
+    padding: 40px;
+    background-color: rgb(33, 142, 238);
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formacionProfesional {
+    font-size: 50px;
+    color: white;
+}
+
+.titulos {
+    max-width: 20%;
+    margin-top: 50px;
+    gap: 40px;
+    padding: 20px;
+    flex: 1;
+}
+
+.formacionProfesional {
+    margin-bottom: 40px;
+}
+
+.imagen1 {
+    flex: 2;
+}
+
+.titulos button {
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.boton_transparente {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.boton_transparente:hover {
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    color: black;
+    font-size: 16px;
+}
+
+
+
+.boton_relleno {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    font-size: 16px;
+}

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-size: 3rem;
+    background-color: #ddd;
+    border: 0.2em solid black;
+    margin: 1em;
+}
+
+p {
+    text-align: center;
+    color: black;
+    background-color: rgb(144, 150, 206);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+div {
+    background-color: rgb(143, 107, 134);
+
+
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.item-content {
+    height: 100px;
+    width: 50px;
+
+
+}
+
+
+.contenedor1 {
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+
+
+.contenedor2 {
+
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
+.contenedor3 {
+
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor4 {
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contenedor5 {
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor6 {
+    width: 30%;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.contenedor6 .item11 {
+    flex-grow: 1;
+}

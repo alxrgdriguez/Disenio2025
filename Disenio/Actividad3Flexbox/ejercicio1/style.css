@@ -5,75 +5,80 @@
 }
 
 body {
+    max-width: 100%;
     margin: 0 auto;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     margin: 40px;
 }
 
 img {
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-    padding: 20px;
-    border-radius: 50px;
 }
 
 .contendorCabecera {
-    max-width: 85%;
-    padding: 40px;
-    background-color: rgb(33, 142, 238);
-    margin: 0 auto;
-    border-radius: 20px;
     display: flex;
+    max-width: 75%;
+    padding: 60px;
+    height: min-content;
+    margin: 0 auto;
+    background-color: rgb(1, 95, 190);
+    border-radius: 20px;
     justify-content: space-between;
 }
 
-.formacionProfesional {
-    font-size: 50px;
+section {
+    width: 50%;
+    font-size: 55px;
     color: white;
-}
-
-.titulos {
-    max-width: 20%;
     margin-top: 50px;
-    gap: 40px;
-    padding: 20px;
-    flex: 1;
 }
 
-.formacionProfesional {
-    margin-bottom: 40px;
-}
-
-.imagen1 {
-    flex: 2;
-}
-
-.titulos button {
-    cursor: pointer;
-    width: 120px;
-    height: 40px;
-    border-radius: 10px;
-}
-
-.boton_transparente {
-    background-color: transparent;
-    border: 2px solid white;
+section .titulos {
     color: white;
-    font-size: 16px;
+    font-weight: bolder;
 }
 
-.boton_transparente:hover {
-    background-color: white;
-    border: 2px solid rgb(255, 255, 255);
-    color: black;
+.enlaces {
+    display: flex;
     font-size: 16px;
+    gap: 40px;
+    margin-top: 40px;
 }
 
+.enlaces a {
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 15px 40px;
+}
 
+.enlaces .boton_transparente {
+    background-color: transparent;
+    border: 1px solid white;
+    transition: 0.3s;
+}
 
-.boton_relleno {
+.enlaces .boton_transparente:hover {
     background-color: white;
-    border: 2px solid white;
     color: black;
-    font-size: 16px;
+}
+
+.enlaces .boton_relleno {
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    transition: 0.3s;
+}
+
+.enlaces .boton_relleno:hover {
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+}
+
+@media (max-width: 768px) {
+    .contendorCabecera {
+        flex-direction: column;
+    }
 }

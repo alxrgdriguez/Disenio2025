@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+img {
+    height: auto;
+    max-width: 30%;
+    border: none;
+    border-radius: 0;
+
+}
+
+.contendorElementos {
+    display: flex;
+    max-width: 80%;
+    gap: 100px;
+    justify-content: center;
+    text-align: center;
+    height: min-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 768px) {
+    .contendorElementos {
+        flex-direction: column;
+
+    }
+
+}

@@ -1,3 +1,114 @@
-h1 {
-    font-size: 80px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedorAcceder {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.paraAlumnos_contenedor {
+    width: 34%;
+    display: flex;
+    border-radius: 20px;
+    padding: 30px;
+    background: linear-gradient(30deg, rgb(52, 52, 232), rgb(186, 157, 161));
+}
+
+.paraAlumnos_texto {
+    width: 90%;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+}
+
+.paraAlumnos_texto h3 {
+    font-size: 30px;
+    margin-left: 38px;
+
+}
+
+.paraAlumnos_texto a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+.paraAlumnos_imagen {
+    width: 30%;
+}
+
+.paraEmpresas_contenedor {
+    width: 34%;
+    display: flex;
+    border-radius: 20px;
+    padding: 30px;
+    background: linear-gradient(to right, rgb(118, 118, 215), rgb(94, 188, 238))
+}
+
+
+.paraEmpresas_texto {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paraEmpresas_texto h3 {
+    font-size: 30px;
+    margin-left: 38px;
+    margin-left: 30px;
+
+}
+
+.paraEmpresas_texto a {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+
+}
+
+@media (max-width: 1439px) {
+    .contenedorAcceder {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1380px) {
+    .contenedorAcceder {
+        flex-direction: column;
+    }
+
+    .paraAlumnos_contenedor {
+        max-width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paraEmpresas_contenedor {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }

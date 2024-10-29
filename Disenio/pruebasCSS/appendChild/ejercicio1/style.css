@@ -1,0 +1,16 @@
+ /* Cambiar el color del primer hijo */
+ li:first-child {
+     color: red;
+
+ }
+
+ /* Cambiar el background del tercer hijo */
+ li:nth-child(3) {
+     background-color: lightgray;
+
+ }
+
+ /* Negrita en el último elemento */
+ li:last-child {
+     font-weight: bold;
+ }

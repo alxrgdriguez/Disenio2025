@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    max-width: 100%;
+}
+
+
+ul {
+    list-style: none;
+    overflow: auto;
+    background-color: rgb(5, 50, 255);
+}
+
+li {
+    float: left;
+}
+
+
+a {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(66, 158, 215);
+}
+
+.submenu_home,
+.submenu_item1,
+.submenu_item3 {
+    visibility: hidden;
+    position: absolute;
+}
+
+li:hover .submenu_home,
+li:hover .submenu_item1,
+li:hover .submenu_item3 {
+    visibility: visible;
+    float: left;
+}

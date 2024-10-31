@@ -54,6 +54,19 @@ nav a li:hover {
     color: #4492df;
 }
 
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 
 
 .contendorCabecera {

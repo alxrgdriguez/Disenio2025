@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f0f0;
+}
+
+#contenedor_formulario {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    border-radius: 14px;
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 23px;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.icon-input {
+    padding: 10px 15px 10px 45px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+.input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: #4e7cfa;
+    font-size: 20px;
+}
+
+.input-container:hover .input-icon {
+    display: none;
+
+}
+
+.input-container_textarea {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+textarea.biografy {
+    padding: 15px 0px 15px 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    background-color: #f7f7f7;
+    outline: none;
+}
+
+textarea.biografy:focus {
+    border: 1px solid #0b47eb;
+}
+
+#edades {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+#edades option {
+    background-color: white;
+
+}
+
+
+#edades:focus {
+    border: 1px solid #0b47eb;
+    box-shadow: 0 0 5px #0b47eb;
+
+}
+
+#boton_azul {
+    background-color: rgb(47, 127, 255);
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-container_textarea:hover .input-icon {
+    display: none;
+}
+
+
+
+
+#boton_verde:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(47, 127, 255);
+    font-weight: bold;
+    transition: 0.3s;
+}

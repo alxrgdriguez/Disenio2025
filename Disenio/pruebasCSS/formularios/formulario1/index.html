@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1 - Formulari de Registro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="contenedor_formulario">
+        <h1>Formulario de Registro</h1>
+        <form>
+
+            <div class="input-container">
+                <i class="material-icons input-icon">person</i>
+                <input type="text" class="icon-input" placeholder="Nombre">
+            </div>
+            <div class="input-container">
+                <i class="material-icons input-icon">email</i>
+                <input type="email" class="icon-input" placeholder="Correo electrónico">
+            </div>
+            <div class="input-container">
+                <i class="material-icons input-icon">lock</i>
+                <input type="password" class="icon-input" placeholder="Contraseña">
+            </div>
+
+            <label for="edades">Edad:</label><br>
+            <select name="edades" id="edades">
+                <option value="" id="selecionarEdad">Seleccione su edad</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+                <option value="46-55">46-55</option>
+                <option value="56+">56+</option>
+            </select>
+
+            <div class="input-container_textarea">
+                <i class="material-icons input-icon">edit</i>
+                <textarea class="biografy" id="biografia" placeholder="Biografía" rows="4"></textarea>
+            </div>
+
+            <button id="boton_azul" type="submit">Registrarse</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

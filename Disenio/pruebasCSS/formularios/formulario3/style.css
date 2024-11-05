@@ -29,6 +29,10 @@ h1 {
     height: 500px;
 }
 
+.galeria img:hover {
+    background-color: rgb(172, 166, 166);
+}
+
 .galeria1 {
     display: flex;
     gap: 20px;

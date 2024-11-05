@@ -20,6 +20,7 @@ h1 {
 }
 
 
+
 ul li a {
     max-width: 100%;
     text-decoration: none;
@@ -28,7 +29,8 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #c8e2f7;
+    width: 140px;
+    background-color: gainsboro;
 }
 
 ul li {

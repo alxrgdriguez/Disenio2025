@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    border: 1px solid #FFC83D;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+ul li a {
+    max-width: 100%;
+    text-decoration: none;
+    color: #333;
+
+}
+
+ul li a:hover {
+    color: #c8e2f7;
+}
+
+ul li {
+    background-color: #E5F3FE;
+}
+
+li {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #FFC83D;
+}
+
+
+li a::before {
+    content: "😈";
+    margin-right: 5px;
+}

@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    margin: 70px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.scale {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+}
+
+.scale:hover {
+    transform: scale(1.2);
+    transition: transform 1s linear;
+}
+
+.rotate {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(56, 56, 227);
+}
+
+.rotate:hover {
+    transform: rotate(360deg);
+    transition: transform 2s linear;
+}
+
+.translate {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(0, 255, 162);
+}
+
+.translate:hover {
+    transform: translate(50px, 50px);
+    transition: transform 1s linear;
+}
+
+.skew {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 0, 255);
+}
+
+.skew:hover {
+    transform: skew(20deg, 20deg);
+    transition: transform 1s linear;
+}
+
+.skewy {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(0, 0, 255);
+}
+
+.skewy:hover {
+    transform: skewY(20deg);
+    transition: transform 1s linear;
+}
+
+.skewx {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 255, 0);
+}
+
+.skewx:hover {
+    transform: skewX(20deg);
+    transition: transform 1s linear;
+}
+
+.traslatex {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(0, 255, 0);
+}
+
+.traslatex:hover {
+    transform: translateX(50px);
+    transition: transform 1s linear;
+}
+
+.translatey {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(98, 61, 61);
+}
+
+.translatey:hover {
+    transform: translateY(50px);
+    transition: transform 1s linear;
+}
+
+.perspective1 {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 165, 0);
+}
+
+.perspective1:hover {
+    transform: perspective(10px) rotate(20deg);
+    transition: transform 1s linear;
+}
+
+.perspective2 {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(165, 255, 0);
+}
+
+.perspective2:hover {
+    transform: perspective(50px) rotate(360deg);
+    transition: transform 1s ease-in;
+}
+
+.matrix {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 0, 165);
+}
+
+.matrix:hover {
+    transform: matrix(-10, 1, 1, 2, 2, 50);
+    transition: transform 1s linear;
+}

@@ -1,0 +1,139 @@
+#contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Transiciones*/
+
+/*Cambia el color de fondo del contenedor.*/
+.backgroud {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+}
+
+.backgroud:hover {
+    background-color: blue;
+    transition: background-color 1s;
+}
+
+/*Cambia el tamaño de las letras del contenedor..*/
+.fontsize {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(171, 66, 242);
+    font-size: 20px;
+}
+
+.fontsize:hover {
+    font-size: 40px;
+    transition: font-size 1s linear;
+}
+
+/*Cambia el color de las letras del contenedor..*/
+.color {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(105, 157, 213);
+    color: rgb(0, 0, 0);
+}
+
+.color:hover {
+    color: rgb(255, 255, 255);
+    transition: color 1s ease-in;
+}
+
+.lineheight {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    line-height: 20px;
+    background-color: rgb(12, 255, 206);
+
+}
+
+.lineheight:hover {
+    transition: line-height 1s linear;
+    line-height: 200px;
+
+}
+
+.boderradius {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(0, 246, 127);
+}
+
+.boderradius:hover {
+    border-radius: 100px;
+    transition: border-radius 3s linear;
+
+}
+
+.boxshadow {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(251, 255, 16);
+}
+
+.boxshadow:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    transition: box-shadow 1s linear;
+
+}
+
+.opacity {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(255, 166, 0);
+
+}
+
+.opacity:hover {
+    opacity: 1;
+    transition: opacity 1s linear;
+    opacity: 0.5;
+}
+
+.border {
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    color: white;
+    background-color: rgb(15, 15, 69);
+}
+
+.border:hover {
+    border: 10px solid rgb(170, 45, 228);
+    transition: border 1s ease-out;
+}
+
+.margin {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(133, 115, 115);
+}
+
+.margin:hover {
+    margin: 100px;
+    transition: margin 2s linear;
+}
+
+.padding {
+    width: 180px;
+    color: white;
+    height: 180px;
+    background-color: rgb(190, 61, 237);
+}
+
+.padding:hover {
+    padding: 100px;
+    transition: padding 2s linear;
+}

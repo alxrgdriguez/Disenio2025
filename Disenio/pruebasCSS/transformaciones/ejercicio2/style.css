@@ -10,7 +10,7 @@ nav {
 
 nav ul {
     margin-top: 20px;
-    padding: 15px;
+    padding: 6px;
     gap: 60px;
     display: flex;
     justify-content: center
@@ -21,8 +21,9 @@ nav ul li {
     font-size: 20px;
 }
 
-nav ul li a {
+nav ul li {
     text-decoration: none;
+    cursor: pointer;
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-weight: bold;
@@ -30,7 +31,8 @@ nav ul li a {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-a:hover {
+.activo:hover {
     transform: scale(1.2);
-    background-color: rgb(255, 255, 255);
+    transform: translateY(40px);
+    background-color: rgb(21, 238, 75);
 }

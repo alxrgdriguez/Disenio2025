@@ -1,0 +1,54 @@
+/*Al cargar la página, las tres secciones de contenido aparecerán desde la izquierda y se
+desvanecerán suavemente hacia su lugar.
+Cada sección tiene un retraso diferente para hacer que la animación sea secuencial, lo que da un
+efecto visual atractivo de presentación dinámica.*/
+
+#container {
+    max-width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+h1 {
+    color: rgb(0, 94, 255);
+}
+
+
+.contenido {
+    opacity: 0;
+    animation-timing-function: ease-in-out;
+    animation: animacion_contenido1 1s forwards;
+}
+
+.contenido:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.contenido:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.contenido:nth-child(3) {
+    animation-delay: 1s;
+}
+
+
+
+@keyframes animacion_contenido1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

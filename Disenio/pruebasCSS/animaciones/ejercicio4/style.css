@@ -1,0 +1,23 @@
+.spinning-wheel {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: conic-gradient(#3498db, #9b59b6, #e74c3c, #f1c40f, #3498db);
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

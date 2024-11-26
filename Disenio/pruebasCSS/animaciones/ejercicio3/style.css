@@ -1,0 +1,32 @@
+/*Crea una animación en HTML y CSS para un elemento cuadrado que cambie de color y se desplace
+de un lado a otro de la pantalla de manera suave y continua*/
+
+.cuadrado {
+    background-color: blue;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 500px;
+    animation-name: cuadrado;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes cuadrado {
+    0% {
+        transform: translateX(-400px);
+    }
+
+
+    50% {
+        transform: translateX(500px);
+        background-color: #ff0000;
+    }
+
+    100% {
+        transform: translateX(-400px);
+        background-color: #0000ff;
+    }
+}

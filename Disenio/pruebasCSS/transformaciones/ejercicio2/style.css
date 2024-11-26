@@ -29,10 +29,15 @@ nav ul li {
     font-weight: bold;
     padding: 10px;
     transition: transform 0.3s ease, background-color 0.3s ease;
+
 }
 
 .activo:hover {
-    transform: scale(1.2);
     transform: translateY(40px);
     background-color: rgb(21, 238, 75);
+}
+
+.activo2:hover {
+    background-color: rgb(21, 238, 75);
+    transform: scale(1.5);
 }

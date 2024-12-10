@@ -1,0 +1,162 @@
+#contenedor {
+    max-width: 100%;
+    max-height: 100%;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "div1"
+        "seccion1"
+        "div2"
+        "seccion2"
+        "div3"
+        "seccion3"
+        ".";
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.seccion1 {
+    grid-area: seccion1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas: "tarea1 tarea2";
+}
+
+.tarea1 {
+    background-color: blue;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.tarea2 {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.seccion2 {
+    grid-area: seccion2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-template-areas: "encurso_1 encurso_2 encurso_3 encurso_4";
+}
+
+.encurso_1 {
+    background-color: rgb(234, 255, 44);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.encurso_2 {
+    background-color: rgb(234, 255, 44);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.encurso_3 {
+    background-color: rgb(234, 255, 44);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.encurso_4 {
+    background-color: rgb(234, 255, 44);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.seccion3 {
+    grid-area: seccion3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-row: 7 / 9;
+    grid-column-gap: 20px;
+    grid-template-areas: "finalizada_1 finalizada_2 finalizada_3 finalizada_4 finalizada_5";
+}
+
+#finalizada_1 {
+    background-color: rgb(139, 181, 221);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#finalizada_2 {
+    background-color: rgb(139, 181, 221);
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding: 30px;
+}
+
+#finalizada_3 {
+    background-color: rgb(139, 181, 221);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#finalizada_4 {
+    background-color: rgb(139, 181, 221);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+
+#finalizada_5 {
+    background-color: rgb(139, 181, 221);
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.div1 h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(7, 177, 7);
+}
+
+
+.div2 h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: orange;
+}
+
+.div3 h2 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: rgb(9, 121, 155);
+}

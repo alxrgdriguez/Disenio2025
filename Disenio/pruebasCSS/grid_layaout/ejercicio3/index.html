@@ -4,67 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de Maquetación con Grid</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ejemplo con Grid</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <div id="contenedor">
-        <header class="header">
-            <h1>Ejemplo de Maquetación con Grid</h1>
-            <p>by @alejandro para @Gregorio</p>
-        </header>
-        <nav class="menu">
-            <ul>
-                <li>Inicio</li>
-                <li>Galería</li>
-                <li>Productos</li>
-                <li>Clientes</li>
-                <li>Sobre nosotros</li>
-                <li>Contacto</li>
-            </ul>
+
+    <h1>Ejemplo de Maquetación con Grid</h1>
+    <h2>Por @alejandro para @gregorio</h2>
+
+    <div class="contenedor">
+        <nav class="barra-lateral">
+            <a href="#">Inicio</a>
+            <a href="#">Galería</a>
+            <a href="#">Productos</a>
+            <a href="#">Clientes</a>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Contacto</a>
         </nav>
 
-        <main class="main">
-            <section class="seccion1">
-
-                <div class="imagen_grande">
-                    <img src="./img/cielo_bonito.webp" alt="Cielo bonito">
-                    <p>Lorem ipsum dolor sit amet...</p>
-                </div>
-
-                <div class="imagen imagen1">
-                    <img src="./img/cielo1.webp" alt="">
-                    <p>Una imagen bonita de un cielo</p>
-                </div>
-
-                <div class="imagen imagen2">
-                    <img src="./img/cielo1.webp" alt="">
-                    <p>Una imagen bonita de un cielo</p>
-                </div>
-
-                <div class="imagen  imagen3">
-                    <img src="./img/cielo1.webp" alt="">
-                    <p>Una imagen bonita de un cielo</p>
-                </div>
-
-                <div class="imagen  imagen4">
-                    <img src="./img/cielo1.webp" alt="">
-                    <p>Una imagen bonita de un cielo</p>
-                </div>
-
-            </section>
-        </main>
-        <footer class="footer">
-            <p>C/ Principal Sevilla</p>
-            <p>Todas las fotos realizadas por @alejandro</p>
-            <div class="social">
-                <a href="#"><img src="snapchat-icon.png" alt="Snapchat"></a>
-                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <section class="contenido">
+            <div class="imagen-grande">
+                <img src="./img/cielo1.webp" alt="cielo">
+                <p class="texto">Lorem ipsum dolor sit amet consectetur adipiscing elit...</p>
             </div>
-        </footer>
+            <div>
+                <img src="./img/cielo_bonito.webp" alt="Cielo bonito">
+                <p class="texto">Una imagen bonita de un cielo</p>
+            </div>
+            <div>
+                <img src="./img/cielo_bonito.webp" alt="Cielo bonito">
+                <p class="texto">Una imagen bonita de un cielo</p>
+            </div>
+            <div>
+                <img src="./img/cielo_bonito.webp" alt="Cielo bonito">
+                <p class="texto">Una imagen bonita de un cielo</p>
+            </div>
+        </section>
     </div>
+
+    <!-- Pie de página -->
+    <footer class="pie-pagina">
+        <p>C/ Principal, Sevilla</p>
+        <p>Todas las fotos realizadas por @alejandro</p>
+        <div class="iconos-redes">
+            <img src="./img/snap.webp" alt="Snapchat">
+            <img src="./img/facebook.webp" alt="Facebook">
+            <img src="./img/twitter.webp" alt="Twitter">
+        </div>
+    </footer>
 </body>
 
 </html>

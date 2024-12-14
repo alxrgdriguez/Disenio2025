@@ -1,6 +1,10 @@
-/* Configuración básica de la página */
-body {
+* {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
@@ -19,16 +23,14 @@ h2 {
     color: #555;
 }
 
-/* Diseño principal */
 .contenedor {
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    /* Barra lateral y contenido */
+    grid-template-columns: 1fr 4fr;
     grid-gap: 20px;
     padding: 20px;
 }
 
-/* Barra lateral */
+/* Menu lateral */
 .barra-lateral {
     display: flex;
     flex-direction: column;
@@ -49,8 +51,7 @@ h2 {
 /* Contenido principal */
 .contenido {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas */
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
 }
 
@@ -67,7 +68,6 @@ h2 {
 
 .imagen-grande {
     grid-column: span 3;
-    /* Imagen grande ocupa todas las columnas */
 }
 
 /* Pie de página */
@@ -80,11 +80,6 @@ h2 {
     background: #f8f8f8;
     border-top: 1px solid #ccc;
     font-size: 0.9rem;
-}
-
-/* Iconos (colores básicos) */
-.iconos-redes {
-    margin-top: 10px;
 }
 
 .iconos-redes img {
